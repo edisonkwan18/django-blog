@@ -48,6 +48,9 @@ INSTALLED_APPS = [
 
     #own
     'blog',
+
+    #third-party
+    'bootstrap_admin',
 ]
 
 MIDDLEWARE = [
