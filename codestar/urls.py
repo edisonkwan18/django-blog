@@ -19,6 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include("blog.urls"), name="blog-urls"),
+    #linking summernote to the project codestar
     path('summernote/', include('django_summernote.urls')),
     path('admin/', admin.site.urls),
 ]
